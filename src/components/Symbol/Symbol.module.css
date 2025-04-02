@@ -1,0 +1,15 @@
+.button {
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.button[data-not-clickable='false']:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.button:disabled,
+.button[data-not-clickable='true']:hover {
+    pointer-events: none;
+}
