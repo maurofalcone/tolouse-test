@@ -4,7 +4,10 @@
   justify-content: center;
   gap: 32px;
   height: 100%;
-  width: 100vw;
+  width: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   background-color: #fafafa;
   padding: 8px 80px;
+  overflow: auto;
 }
